@@ -4,7 +4,7 @@
 
 [![Website](https://img.shields.io/badge/webdevs.net-cf5230?style=flat-square&logo=googlechrome&logoColor=white)](https://webdevs.net)
 [![Contact](https://img.shields.io/badge/support@webdevs.net-111111?style=flat-square&logo=maildotru&logoColor=cf5230)](mailto:support@webdevs.net)
-[![Location](https://img.shields.io/badge/Colorado,_USA-111111?style=flat-square&logo=googlemaps&logoColor=CAC18B)](https://webdevs.net/contact)
+[![Location](https://img.shields.io/badge/California,_USA-111111?style=flat-square&logo=googlemaps&logoColor=CAC18B)](https://webdevs.net/contact)
 
 </div>
 
@@ -156,7 +156,7 @@ exception rather than the rule.
 
 <div align="center">
 
-Technical inquiries welcome. Colorado, USA.
+Technical inquiries welcome. California, USA.
 
 [![Website](https://img.shields.io/badge/webdevs.net-cf5230?style=for-the-badge&logo=googlechrome&logoColor=white)](https://webdevs.net)
 [![Email](https://img.shields.io/badge/support@webdevs.net-CAC18B?style=for-the-badge&logo=maildotru&logoColor=111111&labelColor=CAC18B)](mailto:support@webdevs.net)
