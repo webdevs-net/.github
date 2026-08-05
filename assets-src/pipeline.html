@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<style>
+  @font-face { font-family: 'Anton'; src: url('fonts/Anton.ttf') format('truetype'); }
+  @font-face { font-family: 'Jakarta'; src: url('fonts/Jakarta.ttf') format('truetype'); }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1280px; height: 306px; background: #000; }
+
+  .wrap { width: 1280px; height: 306px; background: #000; padding: 30px 40px; position: relative; }
+  .rule { position: absolute; left: 0; right: 0; top: 0; height: 4px;
+    background: linear-gradient(90deg, #cf5230 0%, #cf5230 55%, #CAC18B 55%, #CAC18B 100%); }
+
+  .head { display: flex; align-items: baseline; gap: 18px; margin-bottom: 26px; }
+  .kicker { font-family: 'Jakarta', sans-serif; font-weight: 800; font-size: 11px;
+    letter-spacing: 0.28em; text-transform: uppercase; color: #cf5230; }
+  h2 { font-family: 'Anton', sans-serif; font-size: 34px; text-transform: uppercase;
+    color: #d1d1cf; line-height: 1; }
+
+  .row { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; }
+
+  .stage { position: relative; background: #0d0d0d; border: 1px solid rgba(255,255,255,0.10);
+    border-radius: 14px; padding: 16px 16px 18px; height: 168px; }
+  .stage .n { font-family: 'Jakarta', sans-serif; font-weight: 800; font-size: 10px;
+    letter-spacing: 0.2em; color: rgba(255,255,255,0.32); }
+  .stage h3 { font-family: 'Anton', sans-serif; font-size: 19px; text-transform: uppercase;
+    color: #fff; margin: 10px 0 12px; line-height: 1.1; }
+  .stage ul { list-style: none; }
+  .stage li { font-family: 'Jakarta', sans-serif; font-size: 12.5px; line-height: 1.55;
+    color: rgba(255,255,255,0.72); padding-left: 12px; position: relative; }
+  .stage li::before { content: ''; position: absolute; left: 0; top: 8px;
+    width: 4px; height: 4px; border-radius: 50%; background: #cf5230; }
+  .stage:nth-child(even) li::before { background: #CAC18B; }
+  .stage .tick { position: absolute; left: 0; top: 0; width: 100%; height: 3px;
+    background: #cf5230; border-radius: 14px 14px 0 0; }
+  .stage:nth-child(even) .tick { background: #CAC18B; }
+
+  .arrow { position: absolute; right: -19px; top: 50%; transform: translateY(-50%);
+    font-family: 'Jakarta', sans-serif; font-weight: 800; font-size: 16px;
+    color: rgba(255,255,255,0.35); z-index: 2; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="rule"></div>
+    <div class="head">
+      <span class="kicker">How we build</span>
+      <h2>The path from data to production</h2>
+    </div>
+    <div class="row">
+      <div class="stage"><div class="tick"></div>
+        <div class="n">01</div><h3>Sources</h3>
+        <ul><li>APIs &amp; third-party systems</li><li>Operational databases</li><li>Documents &amp; media</li><li>Event streams</li></ul>
+        <span class="arrow">&rarr;</span>
+      </div>
+      <div class="stage"><div class="tick"></div>
+        <div class="n">02</div><h3>Pipelines</h3>
+        <ul><li>Ingest &amp; normalization</li><li>Feature engineering</li><li>Embedding &amp; indexing</li><li>Backfills, replays</li></ul>
+        <span class="arrow">&rarr;</span>
+      </div>
+      <div class="stage"><div class="tick"></div>
+        <div class="n">03</div><h3>Model layer</h3>
+        <ul><li>LLM calls &amp; tool use</li><li>Retrieval / RAG</li><li>Trained models</li><li>Agent orchestration</li></ul>
+        <span class="arrow">&rarr;</span>
+      </div>
+      <div class="stage"><div class="tick"></div>
+        <div class="n">04</div><h3>Application</h3>
+        <ul><li>Typed APIs</li><li>Streaming UI</li><li>Auth &amp; permissions</li><li>Human-in-the-loop</li></ul>
+        <span class="arrow">&rarr;</span>
+      </div>
+      <div class="stage"><div class="tick"></div>
+        <div class="n">05</div><h3>Operations</h3>
+        <ul><li>CI/CD &amp; IaC</li><li>Evals &amp; regression sets</li><li>Tracing &amp; alerting</li><li>Cost &amp; drift monitoring</li></ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
