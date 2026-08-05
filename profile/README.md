@@ -37,6 +37,19 @@ quality regressed.
 
 ---
 
+## Open source
+
+A few standalone tools, pulled out of client work when they were generally useful:
+
+| Repo | What it does |
+|---|---|
+| [wp-image-sitemap](https://github.com/webdevs-net/wp-image-sitemap) | Adds the image sitemap WordPress core can't generate on its own |
+| [yt-downloader](https://github.com/webdevs-net/yt-downloader) | Self-hosted video/audio downloader, no ads, no rate limits |
+| [webPify](https://github.com/webdevs-net/webPify) | Batch WebP image conversion, in the browser |
+| [truemail-go](https://github.com/netdevs-net/truemail-go) | Self-hosted email validation service, no API keys or per-lookup fees |
+
+---
+
 ## Stack
 
 **AI & machine learning**
