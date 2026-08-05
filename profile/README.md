@@ -109,21 +109,12 @@ quality regressed.
 
 Security is part of the build, not a pass at the end.
 
-- **Secrets stay out of git.** Credentials live in a managed secret store and reach containers as
-  environment variables. Repos ship a documented `.env.example` with no real values, and secrets
-  are rotated on handoff and offboarding.
-- **Least privilege access.** Access is granted per engagement and revoked when it ends. Two-factor
-  authentication is required on the accounts and hosting panels we administer, and admin users are
-  audited rather than accumulated.
-- **Hardened edges.** Public sites run behind WAF rules with rate limiting and challenges on login
-  and XML-RPC endpoints, brute-force lockouts, and SPF/DKIM/DMARC on any domain that sends mail.
-- **Patching as routine.** Dependency, framework, and platform updates on a schedule, with CVE
-  triage instead of waiting for a scanner to escalate.
-- **Untrusted input at every boundary.** Parameterized queries, schema validation on inbound data,
-  and abuse controls on public forms. Model output and retrieved documents are treated as untrusted
-  too: tool allowlists, no secrets in prompts or logs, and prompt injection assumed by default.
-- **Recovery and response.** Restore-tested backups, plus containment, cleanup and root-cause
-  documentation when something does get through, so the same hole does not reopen.
+- **Least privilege.** Credentials are managed outside the codebase, and access is granted per
+  engagement and revoked when it ends.
+- **Untrusted input at every boundary.** Validation on inbound data, and model output and retrieved
+  documents treated as untrusted too, with prompt injection assumed by default.
+- **Maintained, not just launched.** Dependency and platform patching on a schedule, edge
+  protection for public sites, and a documented response path when something does get through.
 
 ---
 
