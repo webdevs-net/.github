@@ -120,7 +120,24 @@ Security is part of the build, not a pass at the end.
 
 ## Selected work
 
-<img src="./assets/work.png" alt="Selected work: Aibacus AI and ML platform, Holmes AI, webdevs.net site assistant, plus web and app work" width="100%" />
+Every card links to the live system.
+
+**AI systems and platforms**
+
+<p align="center">
+<a href="https://aibac.us"><img src="./assets/card-aibacus.png" width="32%" alt="Aibacus: AI and ML platform. Python, Go, Kafka, TimescaleDB, MLflow, Grafana" /></a>
+<img src="./assets/card-holmes.png" width="32%" alt="Holmes AI: LLM application. SvelteKit, TypeScript, Claude API, SQLite, Docker" />
+<a href="https://webdevs.net"><img src="./assets/card-webdevs.png" width="32%" alt="webdevs.net: site with on-site assistant. Next.js, TypeScript, Tailwind, GSAP, Ollama or Claude" /></a>
+</p>
+
+**Web and app work**
+
+<p align="center">
+<a href="https://photosurgeon.net"><img src="./assets/card-photosurgeon.png" width="24%" alt="Photosurgeon: web app" /></a>
+<a href="https://parkplazabc.com"><img src="./assets/card-parkplaza.png" width="24%" alt="Park Plaza: website" /></a>
+<a href="https://tiamovail.com"><img src="./assets/card-tiamovail.png" width="24%" alt="Ti Amo Vail: mobile app" /></a>
+<a href="https://colleenwilcoxsculpture.com"><img src="./assets/card-colleen.png" width="24%" alt="Colleen Wilcox: sculpture gallery site" /></a>
+</p>
 
 Aibacus and Holmes AI are platforms we build and operate; the web and app work is client delivery.
 Case studies and screenshots: [webdevs.net/portfolio](https://webdevs.net/portfolio)
