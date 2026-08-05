@@ -126,7 +126,7 @@ Every card links to the live system.
 
 <p align="center">
 <a href="https://aibac.us"><img src="./assets/card-aibacus.png" width="32%" alt="Aibacus: AI and ML platform. Python, Go, Kafka, TimescaleDB, MLflow, Grafana" /></a>
-<img src="./assets/card-holmes.png" width="32%" alt="Holmes AI: LLM application. SvelteKit, TypeScript, Claude API, SQLite, Docker" />
+<a href="https://ernestholmes.us"><img src="./assets/card-holmes.png" width="32%" alt="Holmes AI: LLM application. SvelteKit, TypeScript, Claude API, SQLite, Docker" /></a>
 <a href="https://webdevs.net"><img src="./assets/card-webdevs.png" width="32%" alt="webdevs.net: site with on-site assistant. Next.js, TypeScript, Tailwind, GSAP, Ollama or Claude" /></a>
 </p>
 
