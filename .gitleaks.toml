@@ -1,0 +1,14 @@
+# gitleaks config — extends the built-in ruleset with project allowlists.
+title = "gitleaks config"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Allowlisted paths and known non-secret placeholders"
+paths = [
+  '''\.env\.example$''',
+  '''(^|/)env\.example$''',
+  '''(^|/)README\.md$''',
+  '''\.gitleaks\.toml$''',
+]
