@@ -30,5 +30,5 @@ shot() { # shot <name> <width> <height>
 }
 
 shot banner 1280 440
-shot work   1280 452
+shot work   1280 486
 shot pipeline 1280 306

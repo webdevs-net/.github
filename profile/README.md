@@ -118,11 +118,12 @@ Security is part of the build, not a pass at the end.
 
 ---
 
-## Selected client work
+## Selected work
 
-<img src="./assets/work.png" alt="Selected work: Photosurgeon, Park Plaza, Ti Amo Vail, Colleen Wilcox" width="100%" />
+<img src="./assets/work.png" alt="Selected work: Aibacus AI and ML platform, Holmes AI, webdevs.net site assistant, plus web and app work" width="100%" />
 
-Case studies, stacks, and screenshots: [webdevs.net/portfolio](https://webdevs.net/portfolio)
+Aibacus and Holmes AI are platforms we build and operate; the web and app work is client delivery.
+Case studies and screenshots: [webdevs.net/portfolio](https://webdevs.net/portfolio)
 
 ---
 
