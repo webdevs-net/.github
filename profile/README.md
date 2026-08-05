@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://webdevs.net"><img src="./assets/banner.png" alt="WebDevs: no prompt glitter, just production engineering" width="100%" /></a>
+<a href="https://webdevs.net"><img src="./assets/banner.png" alt="Web Devs: no prompt glitter, just production engineering" width="100%" /></a>
 
 [![Website](https://img.shields.io/badge/webdevs.net-cf5230?style=flat-square&logo=googlechrome&logoColor=white)](https://webdevs.net)
 [![Contact](https://img.shields.io/badge/support@webdevs.net-111111?style=flat-square&logo=maildotru&logoColor=cf5230)](mailto:support@webdevs.net)
@@ -12,7 +12,7 @@
 
 ## What this organization is
 
-WebDevs is a security-focused engineering team building AI-backed applications and the systems around them:
+Web Devs is a security-focused engineering team building AI-backed applications and the systems around them:
 data pipelines, model integration, APIs, interfaces, and the CI/CD and monitoring that keep all of
 it running. Most repositories here are private client codebases, one repo per site or platform,
 each with its own environment config and deploy path.
