@@ -1,0 +1,26 @@
+name: Secret scan (gitleaks)
+
+# Scans only the commits introduced by a PR (gate before merge) so it prevents
+# NEW secrets without failing on pre-existing history. Use the manual
+# "Run workflow" (workflow_dispatch) for a full-history audit.
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  gitleaks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Run gitleaks
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            git fetch --no-tags --depth=1 origin "${{ github.base_ref }}"
+            LOGOPTS="--log-opts=origin/${{ github.base_ref }}..HEAD"
+          else
+            LOGOPTS=""   # manual run: full-history audit
+          fi
+          docker run --rm -v "$GITHUB_WORKSPACE:/repo" ghcr.io/gitleaks/gitleaks:latest \
+            detect --source=/repo --config=/repo/.gitleaks.toml --redact --verbose --exit-code=1 $LOGOPTS
