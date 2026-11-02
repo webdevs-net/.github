@@ -43,7 +43,8 @@ A few standalone tools, pulled out of client work when they were generally usefu
 
 | Repo | What it does |
 |---|---|
-| [wp-image-sitemap](https://github.com/webdevs-net/wp-image-sitemap) | Adds the image sitemap WordPress core can't generate on its own |
+| [wp-google-images-sitemap](https://github.com/webdevs-net/wp-google-images-sitemap) | Adds the image sitemap WordPress core can't generate on its own |
+| [wp-strict-csp](https://github.com/webdevs-net/wp-strict-csp) | Strict nonce-based Content Security Policy for WordPress, as one must-use plugin |
 | [yt-downloader](https://github.com/webdevs-net/yt-downloader) | Self-hosted video/audio downloader, no ads, no rate limits |
 | [webPify](https://github.com/webdevs-net/webPify) | Batch WebP image conversion, in the browser |
 | [truemail-go](https://github.com/netdevs-net/truemail-go) | Self-hosted email validation service, no API keys or per-lookup fees |
